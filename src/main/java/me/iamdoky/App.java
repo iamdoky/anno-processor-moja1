@@ -6,9 +6,12 @@ package me.iamdoky;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        Moja moja = new MagicMoja();          // 애노테이션 프로세서를 통하여 생성할 클래스
+    public static void main( String[] args ) {
+
+        Moja moja = new MagicMoja();
         System.out.println(moja.pullOut());
+
+
+
     }
 }
